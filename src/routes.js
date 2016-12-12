@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 import { Route, Router, browserHistory, IndexRoute } from 'react-router'
 
-import App from './App/App'
-import Home from './Home/Home'
-import About from './About/About'
+import App from './App'
+import Home from './Views/Home/Home'
+import Explore from './Views/Explore/Explore'
+import MyInfo from './Views/MyInfo/MyInfo'
 
 class Routes extends Component {
   render() {
@@ -11,7 +12,8 @@ class Routes extends Component {
       <Router history={browserHistory}>
         <Route path="/" component={App} >
           <IndexRoute component={Home} />
-          <Route path="/about" component={About} />
+          <Route path="/explore" component={Explore} />
+          <Route path="/myinfo" component={MyInfo} />
         </Route>
       </Router>
     )
