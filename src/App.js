@@ -1,17 +1,24 @@
 import React, { Component } from 'react'
 
+import './Style/reset.css'
+import './Style/common.css'
+
 import Home from './Views/Home/Home'
-import Footer from './Components/Footer/Footer'
-import Header from './Components/Header/Header'
+import FooterComponent from './Components/Footer/Footer'
+import HeaderComponent from './Components/Header/Header'
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <Header />
-        {this.props.children || <Home />}
-        <Footer />
-      </div>
+      <section className="wrap">
+        <HeaderComponent />
+        <main className="main">
+          <div className="mainWrap">
+            {this.props.children || <Home />}
+          </div>
+        </main>
+        <FooterComponent />
+      </section>
     )
   }
 }
