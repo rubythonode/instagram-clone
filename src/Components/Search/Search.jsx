@@ -1,5 +1,5 @@
 import React from 'react'
-import './Search.css'
+import './search.css'
 
 function Search() {
   return (
@@ -7,7 +7,7 @@ function Search() {
       <input type="text" />
       <div className="search-helper">
         <div>
-          <span className="commonbg search-icon"></span>
+          <span className="commonbg search-icon" />
           <span className="search-text">Search</span>
         </div>
       </div>

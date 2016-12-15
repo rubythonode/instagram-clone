@@ -1,4 +1,7 @@
-.searchBox{}
+.searchBox{
+  width:100%;
+  height: 100%;
+}
 .searchBox input{
   border: solid 1px #dbdbdb;
   border-radius: 3px;

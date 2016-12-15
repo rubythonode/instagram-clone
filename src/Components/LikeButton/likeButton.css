@@ -1,0 +1,22 @@
+.likeBtn{
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-left: -9px;
+  margin-right: 3px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+}
+.likeBtn span{
+  display: block;
+  overflow: hidden;
+  text-indent: 110%;
+  white-space: nowrap;
+  background-position: -276px -180px;
+  height: 24px;
+  width: 24px;
+}

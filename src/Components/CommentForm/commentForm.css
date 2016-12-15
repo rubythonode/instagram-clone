@@ -1,0 +1,22 @@
+.commentSection form{
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  color: #999;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+}
+.commentSection form input{
+  background: 0 0;
+  border: none;
+  color: #262626;
+  outline: none;
+  width: 100%;
+  -webkit-appearance: none;
+}
+@media (min-width: 736px){
+  .commentSection form input{
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
